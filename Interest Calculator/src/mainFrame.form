@@ -24,58 +24,56 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="sibtn" min="-2" pref="135" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+                          <Component id="amount" min="-2" pref="273" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="cibtn" pref="135" max="32767" attributes="0"/>
+                              <Component id="mabtn" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="yearval" min="-2" pref="51" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="year_slider" min="-2" pref="255" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="interestval" min="-2" pref="51" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="interest_slide" min="-2" pref="255" max="-2" attributes="0"/>
+                              </Group>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="sibtn" min="-2" pref="135" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
-                                  <Component id="amount" min="-2" pref="273" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="cibtn" pref="135" max="32767" attributes="0"/>
-                                      <Component id="mabtn" max="32767" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" attributes="0">
-                                          <Component id="yearval" min="-2" pref="51" max="-2" attributes="0"/>
-                                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Component id="year_slider" min="-2" pref="255" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" attributes="0">
-                                          <Component id="interestval" min="-2" pref="51" max="-2" attributes="0"/>
-                                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Component id="interest_slide" min="-2" pref="255" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="si_val" min="-2" pref="273" max="-2" attributes="0"/>
-                                              <Component id="timesperyear" min="-2" pref="273" max="-2" attributes="0"/>
-                                              <Component id="ci_val" alignment="0" min="-2" pref="273" max="-2" attributes="0"/>
-                                              <Component id="ma_val" alignment="0" min="-2" pref="273" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-                                          <Component id="jLabel1" min="-2" pref="113" max="-2" attributes="0"/>
-                                      </Group>
+                                      <Component id="si_val" min="-2" pref="273" max="-2" attributes="0"/>
+                                      <Component id="timesperyear" min="-2" pref="273" max="-2" attributes="0"/>
+                                      <Component id="ci_val" alignment="0" min="-2" pref="273" max="-2" attributes="0"/>
+                                      <Component id="ma_val" alignment="0" min="-2" pref="273" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <Component id="jLabel2" alignment="0" min="-2" pref="116" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                  <Component id="jLabel1" min="-2" pref="113" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="272" max="-2" attributes="0"/>
-                      <Component id="reset" min="-2" pref="82" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="0" min="-2" pref="116" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="reset" min="-2" pref="82" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jButton1" min="-2" pref="125" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="156" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
               </Group>
               <EmptySpace pref="57" max="32767" attributes="0"/>
@@ -138,9 +136,12 @@
                   <Component id="mabtn" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="ma_val" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="28" max="32767" attributes="0"/>
-              <Component id="reset" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="reset" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="37" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -264,6 +265,14 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="resetActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Main menu"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>
