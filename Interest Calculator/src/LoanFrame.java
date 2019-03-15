@@ -12,6 +12,8 @@ import javax.swing.JOptionPane;
  * @author Lenovo
  */
 public class LoanFrame extends javax.swing.JFrame {
+    
+    /*trial comment*/
 
     /**
      * Creates new form LoanFrame
